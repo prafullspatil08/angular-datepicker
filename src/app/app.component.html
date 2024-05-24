@@ -1,1 +1,15 @@
-<lib-angular-datepicker></lib-angular-datepicker>
+<div class="container">
+    <div class="columns is-multiline">
+      <div class="column is-6 is-offset-3">
+        <div class="datepicker-container">
+          model value: {{ date }}
+        </div>
+      </div>
+      <div class="column is-6 is-offset-3">
+        <div class="datepicker-container">
+          <lib-angular-datepicker [(ngModel)]="date" [options]="options"></lib-angular-datepicker>
+        </div>
+      </div>
+    </div>
+  </div>
+  

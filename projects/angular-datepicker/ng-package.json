@@ -3,5 +3,9 @@
   "dest": "../../dist/angular-datepicker",
   "lib": {
     "entryFile": "src/public-api.ts"
-  }
+  },
+  "allowedNonPeerDependencies": [
+    "date-fns",
+    "ngx-slimscroll"
+  ]
 }

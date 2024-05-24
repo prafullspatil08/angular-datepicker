@@ -3,9 +3,13 @@
   "version": "0.0.1",
   "peerDependencies": {
     "@angular/common": "^17.3.0",
-    "@angular/core": "^17.3.0"
+    "@angular/core": "^17.3.0",
+    "date-fns": "^3.6.0",
+    "ngx-slimscroll": "^12.2.0"
   },
   "dependencies": {
+    "date-fns": "^3.6.0",
+    "ngx-slimscroll": "^12.2.0",
     "tslib": "^2.3.0"
   },
   "sideEffects": false
