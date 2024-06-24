@@ -433,7 +433,6 @@ export class AngularDatepickerComponent
     const minDateSet = !isNil(this.currentOptions?.minDate);
     const maxDateSet = !isNil(this.currentOptions?.maxDate);
     const timestamp = date.valueOf();
-
     return (!(minDateSet && timestamp < this.currentOptions.minDate.valueOf()) ||
       (!(maxDateSet && timestamp > this.currentOptions.maxDate.valueOf())));
   }

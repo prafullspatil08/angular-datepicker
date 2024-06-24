@@ -1,5 +1,5 @@
 {
-  "name": "angular-datepicker",
+  "name": "angular-17x-date-picker",
   "version": "0.0.1",
   "peerDependencies": {
     "@angular/common": "^17.3.0",

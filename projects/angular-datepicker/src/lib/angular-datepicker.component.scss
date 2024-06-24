@@ -148,7 +148,7 @@ div {
     cursor: default;
   }
 
-  &.is-visible &:hover{
+  &.is-visible &:hover {
     background: $hover-background;
     color: black;
   }
@@ -160,6 +160,11 @@ div {
     cursor: not-allowed;
     color: $text-secondary;
   }
+}
+
+.day-background-upper .is-disabled {
+  cursor: not-allowed;
+  color: $text-secondary;
 }
 
 .day-background-lower {
